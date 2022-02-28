@@ -1,0 +1,23 @@
+button{
+    width: 100px;
+    height: 50px;
+    background: none;
+    border: 3px solid #F8B195 ;
+    color: #F8B195;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
+button:hover{
+    cursor: crosshair;
+    background: #F67280;
+    color: #F8B195;
+
+}
+button:after{
+    cursor: crosshair;
+    background: #F67280;
+    color: #F8B195;
+
+}
+

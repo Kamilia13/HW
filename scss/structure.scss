@@ -1,0 +1,31 @@
+.tab{
+    padding: 15px 30px;
+    margin: 15px;
+    padding-top: 0;
+    border: 3px solid #F67280;
+    border-top: none;
+    transition: 1s;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+
+.tab p{
+    text-align: justify;
+}
+
+
+
+.tab img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.tabAnimation{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+

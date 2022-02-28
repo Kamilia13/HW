@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    font-family: arial;
+    background: linear-gradient(#C06C84,#6C5B7B) ;
+    color: #F8B195;
+}
+
+.selected {
+    background: #F8B195;
+    color: #F67280;
+}
+
+h1:before{
+    position: absolute;
+    content: "♥";
+    color: #F8B195;
+    left:125px;
+
+}
+h1:after{
+    position: absolute;
+    content: "♥";
+    left:700px;
+    color: #F67280;
+
+}
